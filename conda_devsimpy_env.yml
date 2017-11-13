@@ -1,0 +1,97 @@
+# run: conda env create --file conda_devsimpy_env.yml
+name: DEVSimPy_test
+dependencies:
+- asn1crypto=0.22.0=py27hc975345_1
+- backports=1.0=py27h6492d98_1
+- backports.functools_lru_cache=1.4=py27h9586e20_1
+- backports_abc=0.5=py27h0ec6b72_0
+- ca-certificates=2017.08.26=h94faf87_0
+- certifi=2017.7.27.1=py27hf761292_0
+- cffi=1.10.0=py27hb6f203f_1
+- chardet=3.0.4=py27h56c3b73_1
+- coverage=4.4.1=py27_0
+- cryptography=2.0.3=py27h1cc6ae9_1
+- cycler=0.10.0=py27h59acbbf_0
+- decorator=4.1.2=py27h383e199_0
+- enum34=1.1.6=py27h2aa175b_1
+- freetype=2.8=vc9hf582001_0
+- functools32=3.2.3.2=py27h0cdbcdb_1
+- future=0.16.0=py27_1
+- icc_rt=2017.0.4=h97af966_0
+- icu=58.2=vc9h3e79e4e_0
+- idna=2.6=py27h1ea29d3_1
+- intel-openmp=2018.0.0=hcd89f80_7
+- ipaddress=1.0.18=py27h08e1fa7_0
+#- ipython_genutils=0.2.0=py27hbe997df_0
+- jpeg=9b=ha175dff_2
+- jsonschema=2.6.0=py27haaf3834_0
+#- jupyter_core=4.3.0=py27h7bec3d2_0
+- libiconv=1.15=vc9h6e1f958_5
+- libpng=1.6.32=vc9h2352712_3
+- libxml2=2.9.4=vc9h17753f3_5
+- libxslt=1.1.29=vc9h15c42d4_5
+- lxml=4.1.0=py27h5006083_0
+- mkl=2018.0.0=h36b65af_4
+- nbformat=4.4.0=py27hf49b375_0
+- networkx=2.0=py27h42253ca_0
+- openssl=1.0.2m=vc9h84c94bd_0
+- pandas=0.21.0=py27h3b50df0_1
+- pandas-datareader=0.5.0=py27_0
+- pip=9.0.1=py27hdaa76b4_4
+- plotly=2.1.0=py27h33c81ae_0
+- psutil=5.4.0=py27h12f019a_0
+- pycparser=2.18=py27hb43d16c_1
+- pyopenssl=17.2.0=py27h58ddd18_0
+- pyparsing=2.2.0=py27hc7d9fa6_1
+- pyqt=5.6.0=py27h224ed30_5
+- pysocks=1.6.7=py27h59bdd1e_1
+- python=2.7.14=h8c3f1cb_23
+- python-dateutil=2.6.1=py27hbdcc174_1
+- pytz=2017.2=py27haecbe8f_1
+- pyyaml=3.12=py27ha287073_1
+- qt=5.6.2=vc9hc26998b_12
+- requests=2.18.4=py27h3159eba_1
+- requests-file=1.4.1=py27_0
+- requests-ftp=0.3.1=py27_0
+- setuptools=36.5.0=py27ha483b79_0
+- singledispatch=3.4.0.3=py27h3f9d112_0
+- sip=4.18.1=py27h5ec1c1a_2
+- six=1.11.0=py27ha5e1701_1
+- sqlite=3.20.1=hcee4010_2
+- ssl_match_hostname=3.5.0.1=py27hea8a0f4_2
+- tornado=4.5.2=py27hbdd278e_0
+- traitlets=4.3.2=py27h1b1b3a5_0
+- urllib3=1.22=py27hb9f5a07_0
+- vc=9=h7299396_1
+- vs2008_runtime=9.00.30729.1=hfaea7d5_1
+#- wheel=0.29.0=py27hffb40b6_1
+- win_inet_pton=1.0.1=py27hf41312a_1
+- wincertstore=0.2=py27hf04cefb_0
+- yaml=0.1.7=hf706047_2
+- zlib=1.2.11=hbc2faf4_2
+- pip:
+  - backports-abc
+  - backports.functools-lru-cache
+  - backports.ssl-match-hostname
+  - colorama
+  - configparser
+  - flake8
+  - flake8-polyfill
+  - mando
+  - matplotlib
+  - mccabe
+  - ndg-httpsclient
+  - pusher
+  - pyasn1
+  - pycodestyle
+  - pydot
+  - pyflakes
+  - pymdptoolbox
+  - radon
+# - scipy-0.18.0-cp27-cp27m-win_amd64.whl
+#  - win-inet-pton==1.0.1
+#  - numpy-1.11.1+mkl-cp27-cp27m-win_amd64.whl
+#  - wxPython-3.0.2.0-cp27-none-win_amd64.whl
+  - https://github.com/capocchi/DEVSimPy-site/raw/gh-pages/pip-packages/numpy-1.11.1%2Bmkl-cp27-cp27m-win_amd64.whl
+  - https://github.com/capocchi/DEVSimPy-site/raw/gh-pages/pip-packages/scipy-0.18.0-cp27-cp27m-win_amd64.whl
+  - https://github.com/capocchi/DEVSimPy-site/raw/gh-pages/pip-packages/wxPython-3.0.2.0-cp27-none-win_amd64.whl
